@@ -1,0 +1,48 @@
+* {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.navbar-dark {
+    background-color: #4DA8DA;
+}
+
+.row-header {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body {
+    padding: 50px 0px 0px 0px;
+    background: #203647;
+    z-index: 0;
+}
+
+.carousel {
+    background: #4DA8DA;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 300px;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+
+.carousel #carouselcontrol,.carousel .carousel-indicators{
+    visibility:hidden;
+}
+
+.carousel:hover #carouselcontrol,.carousel:hover .carousel-indicators{
+    visibility:visible;
+}
